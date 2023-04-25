@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from "./App";
 import About from "./About";
+import Shop from "./Shop";
 
 const RouteSwitch = () => {
   return (
@@ -9,6 +10,8 @@ const RouteSwitch = () => {
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/about" element={<About />} />
+        <Route path="/shop" element={<Shop />} />
+        <Route path="/checkout" element={<Checkout />} />
       </Routes>
     </BrowserRouter>
   );
