@@ -1,8 +1,10 @@
 import React from 'react';
+import Navbar from '../component/Navbar';
 
 const Checkout = () => {
     return (
       <div>
+        <Navbar />
         <h1>Checkout</h1>
       </div>
     );
