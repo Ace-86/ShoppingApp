@@ -1,14 +1,15 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import App from "./App";
-import About from "./About";
-import Shop from "./Shop";
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Shop from "./pages/Shop";
+import Checkout from "./pages/Checkout"
 
 const RouteSwitch = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<App />} />
+        <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/shop" element={<Shop />} />
         <Route path="/checkout" element={<Checkout />} />
