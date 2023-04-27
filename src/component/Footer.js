@@ -6,7 +6,7 @@ import {
     Column,
     FooterLink,
     Heading
-} from './FooterStyles';
+} from './Style/FooterStyles';
 
 const Footer = () => {
 
