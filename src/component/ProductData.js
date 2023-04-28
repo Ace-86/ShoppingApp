@@ -16,23 +16,23 @@ export const Product = [
     },
     {
         keyId: 2,
-        name: "",
-        image: "",
-        description: "",
-        price: ""
+        name: "product2",
+        image: "images/jellymask.jpg",
+        description: "asdasdoasj;asdljf;aods",
+        price: "20.99"
     },
     {
         keyId: 3, 
-        name: "",
-        image: "",
-        description: "",
-        price: ""
+        name: "product3",
+        image: "images/jellymask.jpg",
+        description: "asdoiaishfo;asfdjfasodijfadwodf",
+        price: "30.99"
     },
     {
         keyId: 4,
-        name: "",
-        image: "",
-        description: "",
-        price: ""
+        name: "product4",
+        image: "images/jellymask.jpg",
+        description: "kgdsfhogisrhpgiewro oisdffjfopiasdhjfa",
+        price: "25.99"
     }
 ]
